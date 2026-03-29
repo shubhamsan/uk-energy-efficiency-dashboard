@@ -39,12 +39,13 @@ The dashboard was built adhering to core data visualisation theories:
   <img src="assets/dashboard1.png" width="45%">
   <img src="assets/dashboard2.png" width="45%">
 </p>
+
 ## 📁 Repository Structure
-text
+```text
 ├── data/
-│   └── 15energyconsumptionbyindustry.xlsx
-│   └── energyefficiencyofhousingenglandandwalesfiverollingyearsuptomarch2023.xlsx
-│   └── individualenergyperformancecertificateepcbandsenglandandwalesuptomarch2023.xlsx
+│   ├── 15energyconsumptionbyindustry.xlsx
+│   ├── energyefficiencyofhousingenglandandwalesfiverollingyearsuptomarch2023.xlsx
+│   ├── individualenergyperformancecertificateepcbandsenglandandwalesuptomarch2023.xlsx
 │   └── medianestimatedcarbondioxideco2emissionsenglandandwalesuptomarch2023.xlsx
 ├── dashboard/
 │   └── Shubham_Parab_250476264_Coursework_Powerbi.pbix
@@ -52,28 +53,25 @@ text
 │   ├── Coursework_Instruction.pdf
 │   └── Description_Sheet.pdf
 ├── assets/
-│   ├── dashboard_screenshot.png
-│   └──  dashboard_screenshot.png
-└── README.md 
+│   ├── dashboard1.png
+│   └── dashboard2.png
+└── README.md
+```
 
-🚀 How to Use
-Clone this repository to your local machine.
+## 🚀 How to Use
+1. Clone this repository to your local machine.
+2. Ensure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed.
+3. Open the `Shubham_Parab_250476264_Coursework_Powerbi.pbix` file located in the `dashboard/` folder.
+4. Use the on-screen filters, navigation tabs, and timeline sliders to interact with the data.
 
-Ensure you have Power BI Desktop installed.
-
-Open the Shubham_Parab_250476264_Coursework_Powerbi.pbix file located in the dashboard/ folder.
-
-Use the on-screen filters, navigation tabs, and timeline sliders to interact with the data.
-
-📚 References & Data Sources
+## 📚 References & Data Sources
 Data for this project were sourced primarily from the Office for National Statistics (ONS).
 
-Office for National Statistics (ONS). (2024). Energy efficiency of housing in England and Wales: 2024.
+* Office for National Statistics (ONS). (2024). *Energy efficiency of housing in England and Wales: 2024*.
+* Office for National Statistics (ONS). (2025). *Measuring UK greenhouse gas emissions*.
+* Department for Levelling Up, Housing and Communities. *Energy Performance Certificate data on Open Data Communities and Valuation Office Agency - Property Attributes data*.
+* Department for Levelling Up, Housing and Communities. (2023). *English housing survey 2022 to 2023: Energy report*.
+* Brewer, C. A., & Harrower, M. (2003). ColorBrewer.org: An online tool for selecting colour schemes for maps. *Cartography and Geographic Information Science*, 30(1), 67–73.
 
-Office for National Statistics (ONS). (2025). Measuring UK greenhouse gas emissions.
-
-Department for Levelling Up, Housing and Communities. Energy Performance Certificate data on Open Data Communities and Valuation Office Agency - Property Attributes data.
-
-Department for Levelling Up, Housing and Communities. (2023). English housing survey 2022 to 2023: Energy report.
-
-Brewer, C. A., & Harrower, M. (2003). ColorBrewer.org: An online tool for selecting colour schemes for maps. Cartography and Geographic Information Science, 30(1), 67–73.
+---
+**Author:** Shubham Parab
